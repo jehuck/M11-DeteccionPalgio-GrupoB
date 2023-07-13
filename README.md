@@ -4,7 +4,7 @@ Mentoria M11 - Detección de Plagio, Grupo B
 ## Integrantes
 
 - Jorge Huck (jorgehuck@gmail.com)
-- Pedro
+- Pedro Bonafé (bonafepedro@gmail.com)
 - Julieta
 
 ## Objetivo
