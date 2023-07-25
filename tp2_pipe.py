@@ -2,7 +2,7 @@ import os
 import glob
 import pandas as pd
 import numpy as np
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import sessionmaker
@@ -10,11 +10,6 @@ from sqlalchemy import ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.exc import IntegrityError
 
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import SnowballStemmer
-from nltk.tokenize import word_tokenize
-from nltk.tag import pos_tag, map_tag
 from nltk.tokenize import sent_tokenize
 
 from tp2_modulos import CleanText
