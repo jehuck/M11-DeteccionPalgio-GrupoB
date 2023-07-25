@@ -140,3 +140,5 @@ def main():
     read_load_corpus_segments(path)
 
 
+if __name__ == '__main__' :
+    main()
