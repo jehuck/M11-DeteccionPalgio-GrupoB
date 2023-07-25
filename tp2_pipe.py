@@ -70,7 +70,9 @@ def guardar_documento(ruta_archivo=os.path.join(os.getcwd(), "plagiarism", "exam
     with open(ruta_archivo, 'r', encoding= "utf-8-sig") as archivo:
         contenido = archivo.read()
 
-    nuevo_documento = Documentos(nombre_archivo=nombre_archivo, texto=contenido)
+    nuevo_documento = Documentos(nombre_archivo=nombre_archivo,
+                                 texto=contenido
+                                 )
     session.add(nuevo_documento)
 
     try:
@@ -95,9 +97,14 @@ def guardar_segmento(ruta_archivo, id_documento):
         
     for i, value in enumerate (sentSeg):
         
-        segmento_limpio = CleanText(str(value)).lemmatizeText()
+        segmento_limpiado = CleanText(str(value)).lemmatizeText()
 
-        nuevo_segmento = Segmentos(id_documento=id_documento, segmento_texto=segmento_limpio, init_s=i, length_s=int(len(value.strip())))
+        nuevo_segmento = Segmentos(id_documento=id_documento,
+                                   segmento_texto=value,
+                                   segmento_limpio = segmento_limpiado,
+                                   init_s=i,
+                                   length_s=int(len(value.strip()))
+                                   )
         session.add(nuevo_segmento)
 
     try:
