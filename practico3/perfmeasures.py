@@ -441,7 +441,7 @@ Options:
 """)
 
 
-def parse_options():
+def parse_options(xml_origninales= "xml_annotations", output_xml = "output_xml"):
     """Parses the command line options."""
     try:
         long_options = ["micro", "plag-path=", "plag-tag=", "det-path=",
@@ -453,7 +453,7 @@ def parse_options():
         sys.exit(2)
     micro_averaged = False
     # Colocar las rutas con los xmls originales y los xmls generados por nosotros
-    plag_path, det_path = os.path.join(os.getcwd(), "xml", "xml_annotations"), os.path.join(os.getcwd(), "xml", "output_xml")
+    plag_path, det_path = os.path.join(os.getcwd(), "xml", f"{xml_origninales}"), os.path.join(os.getcwd(), "xml", f"{output_xml}")
     plag_tag_name, det_tag_name = "detected-plagiarism", "detected-plagiarism"
     for opt, arg in opts:
         if opt in ("--micro"):
@@ -498,8 +498,17 @@ def main(micro_averaged, plag_path, plag_tag_name, det_path, det_tag_name):
     print('Precision', prec) 
     print('Granularity', gran)
 
+    return rec, prec, gran
 
-if __name__ == '__main__':   
-    main(*parse_options())
-
+def ejecutable(xml_generados):
+   rec, prec, gran = main(*parse_options(xml_generados))
+   
+   result = {
+        "Recall": rec,
+        "Precision": prec,
+        "Granularity": gran,
+        "XML_generados": xml_generados  # Ruta de la carpeta de XML generados
+    }
+   
+   return result
 

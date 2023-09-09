@@ -3,7 +3,8 @@
 Created on Sat Oct 10 19:20:07 2020
 
 @author: pablonicolasr,
-         jorgehuck@gmail.com
+         jorgehuck@gmail.com,
+         bonafepedro@gmail.com
 """
 
 from sklearn.cluster import DBSCAN, AgglomerativeClustering, KMeans
@@ -27,13 +28,13 @@ def kmeans_cluster(X, n_clusters):
     Agrupa los documentos en clusters utilizando el algoritmo KMeans.
     """
     kmeans = KMeans(n_clusters=n_clusters)
-    labels = kmeans.fit_predict(X)
-    return labels
+    kmeans.fit_predict(X)
+    return kmeans
 
 def agglomerative_cluster(X, n_clusters):
     """
     Agrupa los documentos en clusters utilizando el algoritmo AgglomerativeClustering.
     """
     agglomerative = AgglomerativeClustering(n_clusters=n_clusters)
-    labels = agglomerative.fit_predict(X)
-    return labels
+    agglomerative.fit_predict(X)
+    return agglomerative

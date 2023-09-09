@@ -50,7 +50,7 @@ def getnumOfPunctN(text):
 
 # La metrica Type-Token Ratio (TTR) es una medida de riqueza léxica que compara la cantidad de palabras unicas 
 # (tipos) con la cantidad total de palabras (tokens) en un texto.
-def gettypeToken(text, language):    
+def gettypeToken(text, language = "English"):    
     tam = len(text)
     if tam <= 0:        
         text = 0    
