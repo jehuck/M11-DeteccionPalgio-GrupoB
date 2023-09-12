@@ -260,7 +260,7 @@ def main():
     textos_originales1, sospechosos_path1, output_xml1, xml_docs1 = crear_carpetas(version="seg_parr_dbscan")
     busqueda_plagio(textos_originales1, sospechosos_path1, output_xml1, xml_docs1, segment = "parraf", clustering="dbscan")
 
-    resultados1 =  perfmeasures.ejecutable(output_xml1)
+    resultados1 =  perfmeasures.ejecutable(output_xml1, version="Segmentacion por parrafos y dbscan")
    
     print(f"pruebo el main1 {resultados1}")
 
@@ -268,7 +268,7 @@ def main():
     textos_originales2, sospechosos_path2, output_xml2, xml_docs2 = crear_carpetas(version="seg_content_agglo")
     busqueda_plagio(textos_originales2, sospechosos_path2, output_xml2, xml_docs2, segment = "content", clustering="aglomerative")
 
-    resultados2 =  perfmeasures.ejecutable(output_xml2)
+    resultados2 =  perfmeasures.ejecutable(output_xml2, version="Segmentacion por contenido y agglomerative")
     print(f"pruebo el main2 {resultados2}")
 
     return resultados1, resultados2

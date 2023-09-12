@@ -500,10 +500,11 @@ def main(micro_averaged, plag_path, plag_tag_name, det_path, det_tag_name):
 
     return rec, prec, gran
 
-def ejecutable(xml_generados):
+def ejecutable(xml_generados, version):
    rec, prec, gran = main(*parse_options(xml_generados))
    
    result = {
+       "Version": version,
         "Recall": rec,
         "Precision": prec,
         "Granularity": gran,
