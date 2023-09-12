@@ -1,0 +1,7 @@
+<document reference="suspicious-document04442.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="4210" this_length="1804" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="16961" this_length="1312" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="44198" this_length="3741" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="67768" this_length="4011" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="94200" this_length="2185" />
+</document>

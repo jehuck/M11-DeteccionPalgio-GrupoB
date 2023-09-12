@@ -1,0 +1,26 @@
+<document reference="suspicious-document03492.txt">
+  <feature name="detected-plagiarism" this_offset="1378" this_length="2636" />
+  <feature name="detected-plagiarism" this_offset="9520" this_length="4443" />
+  <feature name="detected-plagiarism" this_offset="52779" this_length="23969" />
+  <feature name="detected-plagiarism" this_offset="90099" this_length="4721" />
+  <feature name="detected-plagiarism" this_offset="100767" this_length="4857" />
+  <feature name="detected-plagiarism" this_offset="113082" this_length="2702" />
+  <feature name="detected-plagiarism" this_offset="127235" this_length="17997" />
+  <feature name="detected-plagiarism" this_offset="178010" this_length="24607" />
+  <feature name="detected-plagiarism" this_offset="234562" this_length="1885" />
+  <feature name="detected-plagiarism" this_offset="274963" this_length="23293" />
+  <feature name="detected-plagiarism" this_offset="317878" this_length="16286" />
+  <feature name="detected-plagiarism" this_offset="349785" this_length="17066" />
+  <feature name="detected-plagiarism" this_offset="393533" this_length="1714" />
+  <feature name="detected-plagiarism" this_offset="405456" this_length="16483" />
+  <feature name="detected-plagiarism" this_offset="448660" this_length="17260" />
+  <feature name="detected-plagiarism" this_offset="517183" this_length="24065" />
+  <feature name="detected-plagiarism" this_offset="570186" this_length="18417" />
+  <feature name="detected-plagiarism" this_offset="607652" this_length="5056" />
+  <feature name="detected-plagiarism" this_offset="619395" this_length="1531" />
+  <feature name="detected-plagiarism" this_offset="626894" this_length="3742" />
+  <feature name="detected-plagiarism" this_offset="633572" this_length="233" />
+  <feature name="detected-plagiarism" this_offset="634545" this_length="273" />
+  <feature name="detected-plagiarism" this_offset="634995" this_length="250" />
+  <feature name="detected-plagiarism" this_offset="635817" this_length="246" />
+</document>

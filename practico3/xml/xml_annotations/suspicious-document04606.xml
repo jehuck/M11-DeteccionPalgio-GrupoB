@@ -1,0 +1,21 @@
+<document reference="suspicious-document04606.txt">
+  <feature name="detected-plagiarism" this_offset="5305" this_length="3747" />
+  <feature name="detected-plagiarism" this_offset="15899" this_length="15247" />
+  <feature name="detected-plagiarism" this_offset="83626" this_length="14626" />
+  <feature name="detected-plagiarism" this_offset="105311" this_length="804" />
+  <feature name="detected-plagiarism" this_offset="123580" this_length="19790" />
+  <feature name="detected-plagiarism" this_offset="172309" this_length="2141" />
+  <feature name="detected-plagiarism" this_offset="180299" this_length="4729" />
+  <feature name="detected-plagiarism" this_offset="191491" this_length="20330" />
+  <feature name="detected-plagiarism" this_offset="280105" this_length="15794" />
+  <feature name="detected-plagiarism" this_offset="334183" this_length="19248" />
+  <feature name="detected-plagiarism" this_offset="363281" this_length="1556" />
+  <feature name="detected-plagiarism" this_offset="369956" this_length="4497" />
+  <feature name="detected-plagiarism" this_offset="380679" this_length="4847" />
+  <feature name="detected-plagiarism" this_offset="413689" this_length="15356" />
+  <feature name="detected-plagiarism" this_offset="440994" this_length="1638" />
+  <feature name="detected-plagiarism" this_offset="446301" this_length="487" />
+  <feature name="detected-plagiarism" this_offset="447403" this_length="240" />
+  <feature name="detected-plagiarism" this_offset="447931" this_length="224" />
+  <feature name="detected-plagiarism" this_offset="448849" this_length="482" />
+</document>

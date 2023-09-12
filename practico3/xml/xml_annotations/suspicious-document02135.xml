@@ -1,0 +1,20 @@
+<document reference="suspicious-document02135.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="25661" this_length="13992" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="54339" this_length="18433" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="138025" this_length="19229" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="180270" this_length="3448" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="195743" this_length="16480" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="240230" this_length="606" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="245227" this_length="1962" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="292187" this_length="17019" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="333191" this_length="18714" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="396605" this_length="16033" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="429646" this_length="14541" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="473854" this_length="1218" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="477853" this_length="4131" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="493095" this_length="2278" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="499817" this_length="3882" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="514121" this_length="2158" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="524535" this_length="4200" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="533260" this_length="227" />
+</document>

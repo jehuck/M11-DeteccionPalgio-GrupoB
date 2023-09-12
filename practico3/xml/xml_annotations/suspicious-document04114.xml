@@ -1,0 +1,20 @@
+<document reference="suspicious-document04114.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="7627" this_length="20860" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="102765" this_length="14622" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="186130" this_length="17253" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="243407" this_length="15033" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="294769" this_length="14642" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="364645" this_length="21606" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="444327" this_length="16041" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="472170" this_length="2629" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="497873" this_length="22918" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="577803" this_length="14696" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="663521" this_length="18564" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="705271" this_length="2679" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="711841" this_length="1410" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="717319" this_length="1401" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="720222" this_length="2306" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="729961" this_length="1581" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="737182" this_length="1843" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="744081" this_length="2475" />
+</document>

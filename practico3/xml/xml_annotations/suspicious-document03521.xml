@@ -1,0 +1,22 @@
+<document reference="suspicious-document03521.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="28862" this_length="20753" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="56554" this_length="1806" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="84745" this_length="21179" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="125992" this_length="17002" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="179209" this_length="15205" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="212913" this_length="18495" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="277097" this_length="18526" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="318431" this_length="19016" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="381966" this_length="18908" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="423702" this_length="18431" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="482391" this_length="19524" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="538881" this_length="21703" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="606418" this_length="19527" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="657027" this_length="20799" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="696172" this_length="14650" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="730374" this_length="15825" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="770639" this_length="3151" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="778540" this_length="14516" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="818342" this_length="2786" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="823111" this_length="1268" />
+</document>

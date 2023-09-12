@@ -1,0 +1,12 @@
+<document reference="suspicious-document04684.txt">
+  <feature name="detected-plagiarism" this_offset="20884" this_length="16182" />
+  <feature name="detected-plagiarism" this_offset="50605" this_length="3014" />
+  <feature name="detected-plagiarism" this_offset="87594" this_length="18036" />
+  <feature name="detected-plagiarism" this_offset="120835" this_length="16951" />
+  <feature name="detected-plagiarism" this_offset="167456" this_length="20566" />
+  <feature name="detected-plagiarism" this_offset="224925" this_length="3047" />
+  <feature name="detected-plagiarism" this_offset="232748" this_length="749" />
+  <feature name="detected-plagiarism" this_offset="234690" this_length="242" />
+  <feature name="detected-plagiarism" this_offset="235393" this_length="260" />
+  <feature name="detected-plagiarism" this_offset="236062" this_length="263" />
+</document>

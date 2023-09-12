@@ -1,0 +1,32 @@
+<document reference="suspicious-document04333.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="16357" this_length="20317" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="70948" this_length="18646" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="111296" this_length="3246" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="125389" this_length="18299" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="175146" this_length="19092" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="221036" this_length="3935" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="230972" this_length="464" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="248649" this_length="20624" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="290816" this_length="1350" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="311655" this_length="14807" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="352441" this_length="21992" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="404935" this_length="13501" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="448723" this_length="17033" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="501352" this_length="15098" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="524769" this_length="22701" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="599463" this_length="21419" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="644973" this_length="2220" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="663210" this_length="20898" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="719558" this_length="19511" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="766585" this_length="3801" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="774184" this_length="1753" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="779678" this_length="2523" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="785908" this_length="2333" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="791606" this_length="3446" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="800409" this_length="1616" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="806676" this_length="3937" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="816281" this_length="2076" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="819775" this_length="230" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="825020" this_length="230" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="825251" this_length="239" />
+</document>

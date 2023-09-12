@@ -1,0 +1,26 @@
+<document reference="suspicious-document02170.txt">
+  <feature name="detected-plagiarism" this_offset="432" this_length="486" />
+  <feature name="detected-plagiarism" this_offset="56511" this_length="24571" />
+  <feature name="detected-plagiarism" this_offset="136155" this_length="21558" />
+  <feature name="detected-plagiarism" this_offset="242893" this_length="18834" />
+  <feature name="detected-plagiarism" this_offset="409409" this_length="24096" />
+  <feature name="detected-plagiarism" this_offset="463351" this_length="3643" />
+  <feature name="detected-plagiarism" this_offset="488585" this_length="3517" />
+  <feature name="detected-plagiarism" this_offset="500118" this_length="724" />
+  <feature name="detected-plagiarism" this_offset="576353" this_length="21307" />
+  <feature name="detected-plagiarism" this_offset="679100" this_length="17932" />
+  <feature name="detected-plagiarism" this_offset="710568" this_length="3167" />
+  <feature name="detected-plagiarism" this_offset="729773" this_length="20550" />
+  <feature name="detected-plagiarism" this_offset="835772" this_length="4966" />
+  <feature name="detected-plagiarism" this_offset="853420" this_length="2734" />
+  <feature name="detected-plagiarism" this_offset="895825" this_length="18970" />
+  <feature name="detected-plagiarism" this_offset="966776" this_length="2613" />
+  <feature name="detected-plagiarism" this_offset="1073657" this_length="24565" />
+  <feature name="detected-plagiarism" this_offset="1163060" this_length="19577" />
+  <feature name="detected-plagiarism" this_offset="1265900" this_length="15269" />
+  <feature name="detected-plagiarism" this_offset="1336946" this_length="21962" />
+  <feature name="detected-plagiarism" this_offset="1464513" this_length="21402" />
+  <feature name="detected-plagiarism" this_offset="1560706" this_length="18122" />
+  <feature name="detected-plagiarism" this_offset="1599898" this_length="18701" />
+  <feature name="detected-plagiarism" this_offset="1694103" this_length="236" />
+</document>

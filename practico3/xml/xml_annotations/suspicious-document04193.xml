@@ -1,0 +1,9 @@
+<document reference="suspicious-document04193.txt">
+  <feature name="detected-plagiarism" this_offset="85498" this_length="22358" />
+  <feature name="detected-plagiarism" this_offset="149756" this_length="3760" />
+  <feature name="detected-plagiarism" this_offset="177387" this_length="2194" />
+  <feature name="detected-plagiarism" this_offset="197819" this_length="2658" />
+  <feature name="detected-plagiarism" this_offset="213273" this_length="3134" />
+  <feature name="detected-plagiarism" this_offset="225914" this_length="1514" />
+  <feature name="detected-plagiarism" this_offset="234924" this_length="233" />
+</document>

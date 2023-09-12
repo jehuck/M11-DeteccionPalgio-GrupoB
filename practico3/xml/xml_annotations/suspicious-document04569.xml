@@ -1,0 +1,14 @@
+<document reference="suspicious-document04569.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="12095" this_length="19228" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="94785" this_length="20951" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="135519" this_length="181" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="136674" this_length="693" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="157191" this_length="21473" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="208855" this_length="1366" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="213052" this_length="666" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="215900" this_length="1394" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="220363" this_length="219" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="222526" this_length="1704" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="226055" this_length="242" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="227243" this_length="206" />
+</document>

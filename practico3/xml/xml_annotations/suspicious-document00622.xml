@@ -1,0 +1,9 @@
+<document reference="suspicious-document00622.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="true" this_offset="244" this_length="209" />
+  <feature name="detected-plagiarism" manual_obfuscation="true" this_offset="959" this_length="266" />
+  <feature name="detected-plagiarism" manual_obfuscation="true" this_offset="1507" this_length="462" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="5262" this_length="2149" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="10737" this_length="671" />
+  <feature name="detected-plagiarism" manual_obfuscation="true" this_offset="12784" this_length="210" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="14171" this_length="242" />
+</document>

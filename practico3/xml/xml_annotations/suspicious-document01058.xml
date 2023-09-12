@@ -1,0 +1,5 @@
+<document reference="suspicious-document01058.txt">
+  <feature name="detected-plagiarism" this_offset="9662" this_length="761" />
+  <feature name="detected-plagiarism" this_offset="24020" this_length="519" />
+  <feature name="detected-plagiarism" this_offset="31763" this_length="239" />
+</document>

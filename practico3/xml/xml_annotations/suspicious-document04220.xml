@@ -1,0 +1,13 @@
+<document reference="suspicious-document04220.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="23468" this_length="19536" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="144369" this_length="21818" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="260759" this_length="16127" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="305816" this_length="2355" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="312473" this_length="2597" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="323192" this_length="2528" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="336958" this_length="2141" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="351873" this_length="1621" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="372848" this_length="4462" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="381716" this_length="767" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="382718" this_length="273" />
+</document>

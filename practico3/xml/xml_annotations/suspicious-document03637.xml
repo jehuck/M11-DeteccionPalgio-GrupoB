@@ -1,0 +1,19 @@
+<document reference="suspicious-document03637.txt">
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="21412" this_length="14766" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="59451" this_length="13154" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="94270" this_length="2298" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="104163" this_length="15772" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="145992" this_length="655" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="188937" this_length="17818" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="235789" this_length="14066" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="288678" this_length="16930" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="341797" this_length="19756" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="369909" this_length="1507" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="374952" this_length="453" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="377889" this_length="2380" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="383642" this_length="451" />
+  <feature name="detected-plagiarism" manual_obfuscation="true" this_offset="384722" this_length="213" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="385537" this_length="233" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="386881" this_length="614" />
+  <feature name="detected-plagiarism" manual_obfuscation="false" this_offset="388058" this_length="235" />
+</document>

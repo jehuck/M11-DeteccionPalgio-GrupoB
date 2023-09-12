@@ -45,7 +45,7 @@ def crear_carpetas(version = ""):
     
     actual_directory = os.getcwd()
 
-    ruta = os.path.join(actual_directory, "mini_corpus")
+    ruta = os.path.join(actual_directory, "corpus")
     ruta_del_directorio = str(ruta) + "\\*.txt"
     # Me produce una lista con los nombres de los archivos txt del corpus
     textos_originales = glob.glob(ruta_del_directorio)
@@ -57,7 +57,7 @@ def crear_carpetas(version = ""):
     cleaned_corpus = str(actual_directory)+f"\\cleaned_corpus{version}"
 
     # De esta manera le voy robo el nombre a los xml
-    path_xml = str(actual_directory) + "\\mini_corpus" + "\\*.xml"
+    path_xml = str(actual_directory) + "\\corpus" + "\\*.xml"
     xml_docs = glob.glob(path_xml)
 
 
