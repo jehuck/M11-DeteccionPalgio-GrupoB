@@ -33,7 +33,7 @@ import nlp
 from segmentador import Segmentador
 from tp2_modulos import CleanText
 from database_engineering import mongodb_esta_en_ejecucion, iniciar_mongodb, conectar_mongodb, insertar_datos
-import perfmeasures
+import practico3.perfmeasures as perfmeasures
  # Feature Selection
 from sklearn.feature_selection import VarianceThreshold
 
@@ -252,37 +252,32 @@ def busqueda_plagio(textos_originales, sospechosos_path, output_xml, xml_docs, s
             et.write(fe, encoding="utf-8", xml_declaration=None, pretty_print=True)
 
 def ejecutando_perfmeasures(xml_outputs):
-    perfmeasures.ejecutable(xml_outputs)
-
+    output = perfmeasures.ejecutable(xml_outputs)
+    
 def main():
 
     # Primer prueba con segmentación por párrafos y dbscan
     textos_originales1, sospechosos_path1, output_xml1, xml_docs1 = crear_carpetas(version="seg_parr_dbscan")
     busqueda_plagio(textos_originales1, sospechosos_path1, output_xml1, xml_docs1, segment = "parraf", clustering="dbscan")
 
-    resultados1 = ejecutando_perfmeasures(output_xml1)
-
+    resultados1 =  perfmeasures.ejecutable(output_xml1)
+   
+    print(f"pruebo el main1 {resultados1}")
 
     # Segunda prueba con segmentación por contenido y agglomerative
     textos_originales2, sospechosos_path2, output_xml2, xml_docs2 = crear_carpetas(version="seg_content_agglo")
     busqueda_plagio(textos_originales2, sospechosos_path2, output_xml2, xml_docs2, segment = "content", clustering="aglomerative")
 
-    resultados2 = ejecutando_perfmeasures(output_xml2)
-
+    resultados2 =  perfmeasures.ejecutable(output_xml2)
+    print(f"pruebo el main2 {resultados2}")
 
     return resultados1, resultados2
+"""
+def load_data():
 
-
-
-
-if __name__ == '__main__':   
-    resultado1, resultado2 = main()
-
-
-    
     database_name = "deteccion_plagio"
     collection_name = "resultados"
-    
+
     if mongodb_esta_en_ejecucion():
         print("MongoDB está en ejecución.")
 
@@ -299,4 +294,65 @@ if __name__ == '__main__':
         iniciar_mongodb()
         insertar_datos(database_name, collection_name, resultado1)
         insertar_datos(database_name, collection_name, resultado2)
-         
+
+"""
+
+if __name__ == '__main__':   
+    resultado1, resultado2 = main()
+
+    #main()
+    print("probando resultado1", resultado1)
+    print("--------------------------------")
+    print("probando resultado2", resultado2)
+    
+    database_name = "deteccion_plagio"
+    collection_name = "resultados"
+    
+    if mongodb_esta_en_ejecucion():
+        print("MongoDB está en ejecución.")
+
+        conectar_mongodb(database_name, collection_name)
+    
+        try:
+
+            # Llamar a la función insertar_datos para insertar los datos en la colección
+            insertar_datos(database_name, collection_name, resultado1)
+            insertar_datos(database_name, collection_name, resultado2)
+        
+        except:
+            print("no pudimos insertar los datos")
+
+
+    else:
+        print("MongoDB no está en ejecución.")
+        iniciar_mongodb()
+        try:
+
+            # Llamar a la función insertar_datos para insertar los datos en la colección
+            insertar_datos(database_name, collection_name, resultado1)
+            insertar_datos(database_name, collection_name, resultado2)
+        
+        except:
+            print("no pudimos insertar los datos")
+
+
+"""
+    # ejemplo de DAG en Airflow
+    from airflow import DAG
+
+    with DAG(
+        'dag_test',
+        default_args=default_args,
+        description='DAG ',
+        schedule_interval=timedelta(hours=1),
+        start_date=datetime(2022, 1, 26),
+    ) as dag:
+        lectura_modelizado = PythonOperator(task_id='lectura y ejecución del modelo',
+                                python_callable=extract)  # Consulta SQL
+        transformation = PythonOperator(task_id='transformation',
+                                        python_callable=transform)    # Procesar datos con pandas
+        load = PythonOperator(task_id='load',
+                                    python_callable=load) # Carga de datos 
+
+
+        extraction >> transformation >> load"""

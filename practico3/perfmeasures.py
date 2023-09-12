@@ -510,5 +510,6 @@ def ejecutable(xml_generados):
         "XML_generados": xml_generados  # Ruta de la carpeta de XML generados
     }
    
+   print(result)
    return result
 
